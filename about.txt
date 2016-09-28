@@ -1,0 +1,7 @@
+This simulation primarily makes use of two objects: computers and sensors.
+Each of these objects is a node in the sensor network. Nodes maintain lists
+of their 'incoming neighbors' and their 'outgoing neighbors'. At node i, an
+incoming neighbor is a node that sends information to node i and an outgoing
+neighbor is a node that receives information from node i. 
+
+Computers must maintain their own clock. 
